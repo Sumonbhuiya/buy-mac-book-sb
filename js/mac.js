@@ -36,33 +36,6 @@ function calculateTotal() {
     finalAmount.innerText = totalPrice;
 }
 
-// for get and set memory purpase 
-document.getElementById('8Gb-memory').addEventListener('click', function () {
-    getAmount('memory', 0);
-})
-document.getElementById('16Gb-memory').addEventListener('click', function () {
-    getAmount('memory', 180);
-})
-
-// for get and set storage purpase
-document.getElementById('256GB-storage').addEventListener('click', function () {
-    getAmount('storage', 0);
-})
-document.getElementById('512GB-storage').addEventListener('click', function () {
-    getAmount('storage', 100);
-})
-document.getElementById('1TB-storage').addEventListener('click', function () {
-    getAmount('storage', 180);
-})
-
-// for get and set delivery purpase
-document.getElementById('free-delivery').addEventListener('click', function () {
-    getAmount('delivery', 0);
-})
-document.getElementById('charged-delivery').addEventListener('click', function () {
-    getAmount('delivery', 20);
-})
-
 // for using promo Code discount
 document.getElementById('promo-code').addEventListener('click', function () {
     const getPromoCode = document.getElementById('applicant-code');

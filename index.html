@@ -29,11 +29,11 @@
                     <div class="pt-5">
                         <h3 class="text-1xl font-bold mb-1">Memory</h3>
                         <div class="flex-auto gap-2">
-                            <button id="8Gb-memory"
+                            <button onclick="getAmount('memory', 0)"
                                 class="text-sm border-2 border-gray-400 rounded px-2 py-1 mb-4 hover:bg-gray-400 hover:text-white">8GB
                                 unified
                                 memory</button>
-                            <button id="16Gb-memory"
+                            <button onclick="getAmount('memory', 180)"
                                 class="text-sm border-2 border-gray-400 rounded px-2 py-1 mb-4 hover:bg-gray-400 hover:text-white">16GB
                                 uniffied
                                 memory</button>
@@ -43,15 +43,15 @@
                     <div class="pt-5">
                         <h3 class="text-1xl font-bold mb-1">Storage</h3>
                         <div class="flex-auto gap-2">
-                            <button id="256GB-storage"
+                            <button onclick="getAmount('storage', 0)"
                                 class="text-sm border-2 border-gray-400 rounded px-2 py-1 mb-4 hover:bg-gray-400 hover:text-white">256GB
                                 SSD
                                 storage</button>
-                            <button id="512GB-storage"
+                            <button onclick="getAmount('storage', 100)"
                                 class="text-sm border-2 border-gray-400 rounded px-2 py-1 mb-4 hover:bg-gray-400 hover:text-white">512GB
                                 SSD
                                 storage</button>
-                            <button id="1TB-storage"
+                            <button onclick="getAmount('storage', 180)"
                                 class="text-sm border-2 border-gray-400 rounded px-2 py-1 mb-4 hover:bg-gray-400 hover:text-white">1TB
                                 SSD
                                 storage</button>
@@ -61,11 +61,11 @@
                     <div class="pt-5">
                         <h3 class="text-1xl font-bold mb-1">Choose your delivery option</h3>
                         <div class="flex-auto">
-                            <button id="free-delivery"
+                            <button onclick="getAmount('delivery', 0)"
                                 class="text-xs border-2 border-gray-400 rounded px-2 py-1 mb-4 hover:bg-gray-400 hover:text-white">Friday,
                                 Aug 25
                                 FREE Prime Delivery</button>
-                            <button id="charged-delivery"
+                            <button onclick="getAmount('delivery', 20)"
                                 class="text-xs border-2 border-gray-400 rounded px-2 py-1 mb-4 hover:bg-gray-400 hover:text-white">Friday,
                                 Aug 21
                                 Delivery charge $20</button>
